@@ -1,0 +1,62 @@
+
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*--------------------------- BARRA DE NAVEGACIÓN ---------------------------*/
+.navbar{
+	z-index: 10;
+	display: absolute;
+	position: fixed;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+	width: 100%;
+}
+
+.navbar-nav{
+    margin-left: 18%;
+    column-gap: 5%;
+    position: absolute;
+    top: 34.5%;
+}
+
+.icono{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.pf__portfolio{
+    position:sticky;
+    margin-left: 7%;
+    display: inline;
+    top: 5%;
+    transition: color .4s;
+}
+
+.pf__portfolio:hover{
+    color: rgb(255, 212, 102);
+}
+
+.subscribe{
+    text-decoration: none;
+    background-color: #0662db;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+	border-right: 10%;
+    margin: right 7%;
+    position: sticky;
+    margin-left: 250%;
+    display: inline;
+    top:5%;
+}
+
+.dropdown-menu{
+    margin-left: 158%;
+    position: absolute;
+    top: 100%;
+}

@@ -1,0 +1,213 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*----------------------------------- NAV BAR -----------------------------------*/
+.navbar{
+	z-index: 10;
+	display: absolute;
+	position: fixed;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+	width: 100%;
+}
+
+.navbar-nav{
+    margin-left: 18%;
+    column-gap: 5%;
+    position: absolute;
+    top: 34.5%;
+}
+
+.icono{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.pf__portfolio{
+    position:sticky;
+    margin-left: 7%;
+    display: inline;
+    top: 5%;
+    transition: color .4s;
+}
+
+.pf__portfolio:hover{
+    color: rgb(255, 212, 102);
+}
+
+.subscribe{
+    text-decoration: none;
+    background-color: #0662db;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+	border-right: 10%;
+    margin: right 7%;
+    position: sticky;
+    margin-left: 250%;
+    display: inline;
+    top:5%;
+}
+
+.dropdown-menu{
+    margin-left: 158%;
+    position: absolute;
+    top: 100%;
+}
+
+/*---------------------------------- ANIMATION ----------------------------------*/
+.animation{
+    width: 100%;
+    height: 60vh;
+    color: #fff;
+    background: linear-gradient(45deg, rgb(10, 9, 63),rgb(122, 42, 42), rgb(70, 64, 136),rgb(255, 208, 0));
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
+}
+
+.font-weight-bold{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 3rem;
+}
+.p1{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 3rem;
+}
+.p2{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 3rem;
+}
+.p3{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 3rem;
+}
+.p4{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 3rem;
+}
+.p5{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    position: absolute;
+    top: 72%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 3rem;
+}
+.p6{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 3rem;
+}
+.p7{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    position: absolute;
+    top: 92%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 3rem;
+}
+.p8{
+    font-size: 3rem;
+    letter-spacing: 2px;
+    border-radius: 25px;
+    position: absolute;
+    top: 102%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 1rem 3rem;
+}
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+/*----------------------- GOALS, PERSONAL ACHIEVEMENTS... -----------------------*/
+#grid{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: 1fr repeat(1, 50%);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    padding: 60px 15px 0px 15px;
+}
+
+.parrafo{
+    margin-left: 20%;
+    margin-top: 2%;
+}
+
+    article div h1{
+        display:inline;
+        margin-top: 20%;
+        bottom: 5px
+    }
+
+    article div p{
+        margin-top: 2%;
+        margin-left: 1%;
+        margin-right: 10%;
+        font-size: 20px;
+    }
+
+.arbol{
+    margin-left: 25%;
+    margin-right: 20%;
+}
+
+/*-----------------------  -----------------------*/
+section{
+    background-color: rgb(37, 34, 34);
+}
+
+.you{
+    position: absolute;
+    left:39.5%;
+}

@@ -16,7 +16,7 @@
 }
 
 .navbar-nav{
-    margin-left: 20%;
+    margin-left: 18%;
     column-gap: 5%;
     position: absolute;
     top: 34.5%;
@@ -484,6 +484,4 @@ footer p:nth-child(2){
 		height: 200px;
 	}
 }
-
 /*------------- FIN ------------ MEDIA INDEX.HTML ------------ FIN -------------*/
-
