@@ -13,7 +13,11 @@
     <link rel="icon" href="../Pre-entrega-2_Fabbian/imgs/favicon.ico" type="ico" sizes="192px 192px">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
     <link rel="stylesheet" href="../Pre-entrega-2_Fabbian/css/1.styles.css">
-
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 </head>
 <body>
     <!---------------------------- BARRA DE NAVEGACIÓN --------------------------->
@@ -45,12 +49,14 @@
                 <li class="nav-item">
                     <a class="nav-link" href="4.work.html">Work</a>
                 </li>
-                <li class="burger" class="nav-item dropdown">
-                    <a class= "subscribe" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ContactMe</a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li class="nav-item dropdown">
+                    <a class= "contactme" class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">ContactMe</a>
+                    <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">Action</a>
                         <a class="dropdown-item" href="#">Another action</a>
                         <a class="dropdown-item" href="#">Something else here</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Separated link</a>
                     </div>
                 </li>
             </ul>
@@ -75,21 +81,83 @@
         <div class="parrafo">
             <h1>Goals, personal achievements & Way of Thinking</h1>
             <p class="font-weight-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, beatae tenetur, iusto nemo aperiam placeat nostrum repellat rerum quos dicta eos tempore. Nobis voluptate totam alias sapiente esse consequatur non? Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde exercitationem dicta quo, velit, consequuntur a odio facere aspernatur, nam tempore minima. Amet tempore repellat sit distinctio ullam magni eum minima. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores quisquam, cupiditate provident voluptatem molestiae ullam culpa expedita ratione maiores, porro alias quibusdam at dolor perferendis architecto quam itaque. Numquam, nam!</p>
-            <p class="gont-weight-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ipsum inventore nihil, vero architecto eum aut pariatur nam sunt esse laudantium obcaecati beatae temporibus accusantium vel iste excepturi error dolores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores tempora, illo in mollitia impedit reiciendis cum ducimus sunt tenetur non et, culpa libero! Illo ratione delectus placeat itaque laboriosam excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo est inventore voluptatum ex pariatur eligendi obcaecati. Ipsum, quibusdam. Perferendis sunt voluptates tempore praesentium aspernatur consequuntur iste, dolores consectetur nulla magnam.</p>
+            <p class="font-weight-normal">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam ipsum inventore nihil, vero architecto eum aut pariatur nam sunt esse laudantium obcaecati beatae temporibus accusantium vel iste excepturi error dolores. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores tempora, illo in mollitia impedit reiciendis cum ducimus sunt tenetur non et, culpa libero! Illo ratione delectus placeat itaque laboriosam excepturi? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo est inventore voluptatum ex pariatur eligendi obcaecati. Ipsum, quibusdam. Perferendis sunt voluptates tempore praesentium aspernatur consequuntur iste, dolores consectetur nulla magnam.</p>
         </div>
 
         <div class="arbol">
-            <img src="../Pre-entrega-2_Fabbian/imgs/20191107_171447.jpg" class="img-fluid" width="90%" height="auto">
+            <img src="../Pre-entrega-2_Fabbian/imgs/20191107_171447.jpg" class="img-fluid" width="150%" height="auto">
         </div>
     </article>
+    <br>
 
     <!---------------------------------- SECTION --------------------------------->
     <section>
-        <div class="you">
-            <h1 class="font-italic">But what about YOU...</h1>
+        <br>
+        <div class="title">
+            <img src="../Pre-entrega-2_Fabbian/imgs/arrow-bottom-right.png">
+            <h1>But what about <span class="you">You</span>...</h1>
         </div>
-
+        <div class="row">
+            <div class="col-4">
+                <div class="list-group" id="list-tab" role="tablist">
+                    <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list" href="#list-home" role="tab" aria-controls="home">What about your projects?</a>
+                    <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">How did you really plan this?</a>
+                    <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list" href="#list-messages" role="tab" aria-controls="messages">Where did the idea come from?</a>
+                    <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list" href="#list-settings" role="tab" aria-controls="settings">Where do you want it to go?</a>
+                </div>
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet voluptas quae accusantium reiciendis modi eos voluptate nihil, rerum vitae saepe est ratione ducimus accusamus, consequatur ex molestiae ipsa debitis quibusdam!
+                    Rem, aspernatur unde quia soluta ducimus amet quasi fuga accusantium ab facilis! Aspernatur cupiditate quod officia ducimus minima amet! Tenetur doloribus veritatis maxime temporibus? Eum suscipit in harum sed aliquam.
+                    Sequi, minima perspiciatis eligendi distinctio ex aliquid quisquam nisi qui in voluptatibus at maxime beatae repellat libero ullam animi adipisci vero odit sit? Expedita sit non ex aliquid quod similique.</div>
+                    <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, maxime iste quo minima distinctio illum? Sunt, itaque nostrum? Aliquid minima consequatur, eius voluptatum aperiam vero error qui consectetur modi dolorum.
+                    Harum officia excepturi reprehenderit quibusdam maiores cumque repudiandae, numquam facere hic consequatur. Accusantium omnis delectus quo repellendus. Rerum obcaecati, id pariatur commodi eligendi animi enim sequi veritatis nobis fugiat ipsam.</div>
+                    <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, delectus nemo! Ut assumenda corrupti ducimus perferendis in. Molestiae reiciendis, saepe dolore vitae nemo id. Nulla quae non iusto voluptas saepe?
+                    Aperiam sed similique expedita itaque ad, veritatis facere aspernatur quia! Aliquam placeat tempore rerum accusantium quidem doloremque laboriosam. Nostrum omnis quos dicta nemo totam repudiandae reiciendis exercitationem illo dignissimos unde!
+                    Esse ducimus ut, rem debitis vero quaerat in ex, eligendi consectetur labore alias quis amet temporibus! Quo perferendis quaerat iure modi quod, dignissimos adipisci mollitia ipsa magni corrupti atque nam.
+                    Fugit a consectetur nemo sint ab tempore inventore natus illum eum laboriosam tenetur error culpa, accusantium at voluptates magni molestias dolores maxime ea? Officiis eveniet recusandae id asperiores natus aliquid!</div>
+                    <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam dolor reiciendis optio eos repudiandae minima veritatis quod quibusdam, aliquid, non sed vel fugit? Fugiat eligendi, culpa optio debitis saepe nemo!
+                    Expedita sequi quasi iure et esse pariatur, sint dolore tenetur minima laborum! Quidem, magni consequatur nemo excepturi distinctio soluta autem explicabo recusandae sapiente ipsam illum velit quo quod labore repellendus.
+                    Ipsa ratione magnam, animi esse unde porro quisquam eligendi nobis obcaecati amet molestiae libero quod, distinctio dolorum molestias modi inventore sapiente magni laboriosam harum hic sed voluptatum et! Rerum, totam.</div>
+                </div>
+            </div>
+        </div>
+        <div class="shadow p-3 mb-5 bg-dark rounded">
+            Let's collaborate! And create something we'll both be proud of!
+        </div>
+        <div class="social">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        
     </section>
     
+    <!---------------------------------- FOOTER ---------------------------------->
+    <footer>
+        <div class="card text-center">
+            <div class="card-header">
+                My Socials
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Pablo E. Fabbian</h5>
+                <p class="card-text">Photography - Music - Gastronomy - Design - Programming</p>
+                <button type="button" class="btn btn-outline-primary">Get In Touch</button>
+            </div>
+            <div class="card-footer">
+                <div class="copyright">© 2022 Pablo Fabbian. Todos los derechos reservados.</div>
+                <div class="links">
+                    <a href="#">Términos</a>
+                    <a href="#">Aviso de privacidad</a>
+                    <a href="#">Accesibilidad</a>
+                    <a href="#">Preferencias</a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
