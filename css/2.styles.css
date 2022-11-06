@@ -56,19 +56,19 @@
     transition: all .5s;
 }
 
-.contactme:hover{
-    text-decoration: none;
-    background-color: #8c00ffa8;
-    color: white;
-    margin-left: 383%;
-}
+    .contactme:hover{
+        text-decoration: none;
+        background-color: #8c00ffa8;
+        color: white;
+        margin-left: 383%;
+    }
 
-.contactme:focus{
-    text-decoration: none;
-    background-color: #8c00ffa8;
-    color: white;
-    margin-left: 383%;
-}
+    .contactme:focus{
+        text-decoration: none;
+        background-color: #8c00ffa8;
+        color: white;
+        margin-left: 383%;
+    }
 
 .dropdown-menu{
     margin-left: 360%;
@@ -84,12 +84,74 @@
         color: #fdf0f5
     }
 
-    /*---------------------------------- ALGO -----------------------------------*/
+    /*--------------------------- FONDO DE PANTALLA ----------------------------*/
+.titles{
+    margin-left: 0%;
+    margin-bottom: 3%;
+    color: #FEFAE0;
+    font-size: 80px;
+}
 
+    .photography{
+        padding: 5% 15% 2% 3%;
+        background-color: #264653;
+        margin-bottom: 8%;
+    }
+            .ph{
+                margin: 15% 0% 20% 0%;
+                font-size: 75%;
+            }
 
+            .parque{
+                position: absolute;
+                top:18%;
+                left: 33%;
+            }
+    
+    .music{
+        padding: 2% 15% 12% 3%;
+        background-color: #2A9D8F;
+        margin-bottom: 8%;
+    }
+            .ms{
+                margin: 0% 0% 25% 51%;
+                font-size: 80%;
+            }
 
+            .guitar{
+                position: absolute;
+                top:114%;
+                left: 23%;
+            }
 
+    .gastronomy{
+        padding: 15% 15% 15% 15%;
+        background-color: #E9C46A;
+        margin-bottom: 8%;
+    }
+            .gs{
+                margin: 15% 0% 25%;
+            }
 
+    .design{
+        padding: 15% 15% 15% 15%;
+        background-color: #F4A261;
+        margin-bottom: 8%;
+    }
+            .ds{
+                margin: 15% 0% 25%;
+            }
+
+    .programming{
+        padding: 15% 15% 15% 15%;
+        background-color: #E76F51;
+        margin-bottom: 8%;
+    }
+            .pr{
+                margin: 15% 0% 25%;
+            }
+
+    /*-------------------------------- SOCIAL ----------------------------------*/
 
 
     .social{
@@ -116,7 +178,7 @@
             transform: scale(1.3);
         }    
 
-    /*---------------------------------- FOOTER -----------------------------------*/
+    /*--------------------------------- FOOTER ----------------------------------*/
 footer{
     background-color: #343a40;
 }
