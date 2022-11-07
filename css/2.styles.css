@@ -102,57 +102,88 @@
                 font-size: 75%;
             }
 
-            .parque{
+            .park{
                 position: absolute;
                 top:18%;
                 left: 33%;
             }
     
     .music{
-        padding: 2% 15% 12% 3%;
+        padding: 2% 15% 13% 3%;
         background-color: #2A9D8F;
         margin-bottom: 8%;
     }
             .ms{
-                margin: 0% 0% 25% 51%;
+                margin: 0% 0% 25% 52%;
                 font-size: 80%;
             }
 
             .guitar{
                 position: absolute;
-                top:114%;
-                left: 23%;
+                top:115.5%;
+                left: 25.5%;
             }
 
     .gastronomy{
-        padding: 15% 15% 15% 15%;
+        padding: 2% 15% 10% 3%;
         background-color: #E9C46A;
-        margin-bottom: 8%;
+        margin-bottom: 10%;
     }
             .gs{
-                margin: 15% 0% 25%;
+                margin: 12% 5% 10% 92%;
+                font-size: 75%;
+                right: 8%;
+            }
+
+            .cake{
+                position: absolute;
+                top: 208%;
+                left: 3%;
+                height: auto;
             }
 
     .design{
-        padding: 15% 15% 15% 15%;
+        padding: 5% 15% 28.5% 7%;
         background-color: #F4A261;
-        margin-bottom: 8%;
+        margin: 15% 0% 0% 0%;
     }
             .ds{
-                margin: 15% 0% 25%;
+                margin: 10% 0% 20 1%;
+                font-size: 80%;
+            }
+
+            .dibu{
+                position: absolute;
+                top:285%;
+                right: 5%;
+                height: auto;
             }
 
     .programming{
-        padding: 15% 15% 15% 15%;
+        padding: 15% 15% 0% 15%;
         background-color: #E76F51;
-        margin-bottom: 8%;
+        margin-bottom: 0%;
     }
             .pr{
-                margin: 15% 0% 25%;
+                margin: 0% 0% 0% 1%;
+                font-size: 80%;
+                position: absolute;
+                top:371.75%;
+                right: 5%;
+            }
+
+            .code{
+                position: absolute;
+                top:325%;
+                left: 3%;
+                height: auto;
             }
 
     /*-------------------------------- SOCIAL ----------------------------------*/
 
+section{
+    background-color: #E76F51;
+}
 
     .social{
         display: flex;
@@ -167,7 +198,7 @@
             justify-content: center;
             background:  #b93a99;
             border-radius: 50%;
-            margin: 700px 25px 70px;
+            margin: 0px 25px 70px;
             color: white;
             text-decoration: none;
             font-size: 40px;
