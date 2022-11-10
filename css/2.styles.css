@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /*----------------------------------- NAV BAR -----------------------------------*/
 .navbar{
 	z-index: 10;
@@ -87,7 +91,6 @@
     /*--------------------------- FONDO DE PANTALLA ----------------------------*/
 .titles{
     margin-left: 0%;
-    margin-bottom: 3%;
     color: #FEFAE0;
     font-size: 80px;
 }
@@ -125,9 +128,9 @@
             }
 
     .gastronomy{
-        padding: 2% 15% 10% 3%;
-        background-color: #E9C46A;
-        margin-bottom: 10%;
+        padding: 2% 15% 7.5% 3%;
+        background-color: #f6bd60;
+        margin-bottom: 12%;
     }
             .gs{
                 margin: 12% 5% 10% 92%;
@@ -137,15 +140,15 @@
 
             .cake{
                 position: absolute;
-                top: 208%;
+                top: 203.5%;
                 left: 3%;
                 height: auto;
             }
 
     .design{
-        padding: 5% 15% 28.5% 7%;
-        background-color: #F4A261;
-        margin: 15% 0% 0% 0%;
+        padding: 4.5% 15% 30.5% 7%;
+        background-color: #f39a52;
+        margin: 11.5% 0% 0% 0%;
     }
             .ds{
                 margin: 10% 0% 20 1%;
@@ -154,7 +157,7 @@
 
             .dibu{
                 position: absolute;
-                top:285%;
+                top:278%;
                 right: 5%;
                 height: auto;
             }
@@ -168,13 +171,13 @@
                 margin: 0% 0% 0% 1%;
                 font-size: 80%;
                 position: absolute;
-                top:371.75%;
+                top:363.6%;
                 right: 5%;
             }
 
             .code{
                 position: absolute;
-                top:325%;
+                top:316%;
                 left: 3%;
                 height: auto;
             }
