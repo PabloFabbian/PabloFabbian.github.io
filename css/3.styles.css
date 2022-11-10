@@ -196,7 +196,7 @@ span::before{
     top: 71.5%;
     left: 78.5%;
     width: auto;
-    height: 20%;
+    height: 25%;
 }
 
 /*------------------------------------ CAROUSEL ----------------------------------*/
@@ -213,6 +213,11 @@ span::before{
     color: rgb(44, 96, 165);
     font-weight: bold;
 }
+
+.banner2{
+    position: absolute;
+    overflow-x: hidden;
+}
 /*-------------------------------------- CARD ------------------------------------*/
 main{
     display: flex;
@@ -220,7 +225,7 @@ main{
     align-items: center;
     column-gap: 5%;
     background-color: #18212b;
-    min-height: 125vh;
+    min-height: 100vh;
     padding-right: 10%;
 }
 
@@ -337,7 +342,7 @@ main{
 
 .card .content .details .actionBtn button{
     padding:10px 26.5px;
-    border-radius: 5px;
+    border-radius: 6px;
     border: none;
     outline: none;
     font-size: 1em;
@@ -364,14 +369,14 @@ section{
     }
 
     .social a{
-        width: 65px;
-        height: 65px;
+        width: 70px;
+        height: 70px;
         display: flex;
         align-items: center;
         justify-content: center;
         background:  #b93a99;
         border-radius: 50%;
-        margin: 700px 25px 70px;
+        margin: 790px 25px 55px;
         color: white;
         text-decoration: none;
         font-size: 40px;
