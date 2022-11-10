@@ -1,0 +1,222 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  scroll-behavior: smooth; }
+
+/*----------------------------------- NAV BAR -----------------------------------*/
+.navbar {
+  z-index: 10;
+  display: absolute;
+  position: fixed;
+  padding-top: 10px;
+  padding-left: 8%;
+  padding-right: 8%;
+  width: 100%; }
+
+.navbar-nav {
+  margin-left: 18.2%;
+  column-gap: 5%;
+  position: absolute;
+  top: 34.5%; }
+
+.icono {
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+.pf__portfolio {
+  position: sticky;
+  margin-left: 7%;
+  display: inline;
+  top: 4.2%;
+  transition: all .15s; }
+
+.pf__portfolio:hover {
+  color: #ffd466;
+  margin-left: 10%; }
+
+.contactme {
+  background-color: #0662db;
+  color: white;
+  border: 2px solid transparent;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 30px;
+  border-right: 10%;
+  margin: right 7%;
+  position: sticky;
+  margin-left: 400%;
+  display: inline;
+  top: 5%;
+  transition: all .5s; }
+
+.contactme:hover {
+  text-decoration: none;
+  background-color: #8c00ffa8;
+  color: white;
+  margin-left: 383%; }
+
+.contactme:focus {
+  text-decoration: none;
+  background-color: #8c00ffa8;
+  color: white;
+  margin-left: 383%; }
+
+.dropdown-menu {
+  margin-left: 360%;
+  margin-top: 4%;
+  position: absolute; }
+
+.dropdown-item {
+  color: #fdf0f5; }
+
+.dropdown-item:hover {
+  background-color: #0662db;
+  color: #fdf0f5; }
+
+/*--------------------------- FONDO DE PANTALLA ----------------------------*/
+.titles {
+  margin-left: 0%;
+  color: #FEFAE0;
+  font-size: 80px; }
+
+.photography {
+  padding: 5% 15% 2% 3%;
+  background-color: #264653;
+  margin-bottom: 8%; }
+
+.ph {
+  margin: 15% 0% 20% 0%;
+  font-size: 75%; }
+
+.park {
+  position: absolute;
+  top: 18%;
+  left: 33%; }
+
+.music {
+  padding: 2% 15% 13% 3%;
+  background-color: #2A9D8F;
+  margin-bottom: 8%; }
+
+.ms {
+  margin: 0% 0% 25% 52%;
+  font-size: 80%; }
+
+.guitar {
+  position: absolute;
+  top: 115.5%;
+  left: 25.5%; }
+
+.gastronomy {
+  padding: 2% 15% 7.5% 3%;
+  background-color: #f6bd60;
+  margin-bottom: 12%; }
+
+.gs {
+  margin: 12% 5% 10% 92%;
+  font-size: 75%;
+  right: 8%; }
+
+.cake {
+  position: absolute;
+  top: 203.5%;
+  left: 3%;
+  height: auto; }
+
+.design {
+  padding: 4.5% 15% 30.5% 7%;
+  background-color: #f39a52;
+  margin: 11.5% 0% 0% 0%; }
+
+.ds {
+  margin: 10% 0% 20 1%;
+  font-size: 80%; }
+
+.dibu {
+  position: absolute;
+  top: 278%;
+  right: 5%;
+  height: auto; }
+
+.programming {
+  padding: 15% 15% 0% 15%;
+  background-color: #E76F51;
+  margin-bottom: 0%; }
+
+.pr {
+  margin: 0% 0% 0% 1%;
+  font-size: 80%;
+  position: absolute;
+  top: 363.6%;
+  right: 5%; }
+
+.code {
+  position: absolute;
+  top: 316%;
+  left: 3%;
+  height: auto; }
+
+/*-------------------------------- SOCIAL ----------------------------------*/
+section {
+  background-color: #E76F51; }
+
+.social {
+  display: flex;
+  margin-left: 31.7%; }
+
+.social a {
+  width: 65px;
+  height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #b93a99;
+  border-radius: 50%;
+  margin: 0px 25px 70px;
+  color: white;
+  text-decoration: none;
+  font-size: 40px;
+  transition: all .3s; }
+
+.social a:hover {
+  transform: scale(1.3); }
+
+/*--------------------------------- FOOTER ----------------------------------*/
+footer {
+  background-color: #343a40; }
+
+.card {
+  background-color: #343a40;
+  font-style: bold;
+  color: lightgray; }
+
+.card-body .btn {
+  border: 2px solid transparent;
+  background-color: #0662db;
+  text-decoration: none;
+  border-radius: 30px;
+  padding: 10px 27px;
+  font-weight: bold;
+  transition: .35s;
+  color: white; }
+
+.card-body .btn:hover {
+  background-color: transparent;
+  border: 2px solid #0662db;
+  cursor: pointer; }
+
+.copyright {
+  color: #8fa3b0;
+  text-align: end;
+  margin-right: 0.3%; }
+
+.links {
+  text-align: end;
+  margin-right: 0.1%; }
+
+.links a {
+  text-decoration: underline;
+  color: #8fa3b0;
+  margin: 0px 5px; }

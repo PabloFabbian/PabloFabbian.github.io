@@ -1,0 +1,509 @@
+
+*{padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*--------------------------- BARRA DE NAVEGACIÓN ---------------------------*/
+.navbar{
+	z-index: 10;
+	display: absolute;
+	position: fixed;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+	width: 100%;
+}
+
+.navbar-nav{
+    margin-left: 18.2%;
+    column-gap: 5%;
+    position: absolute;
+    top: 34.5%;
+}
+
+.icono{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.pf__portfolio{
+    position: sticky;
+    margin-left: 7%;
+    display: inline;
+    top: 4.2%;
+    transition: all .15s;
+}
+
+.pf__portfolio:hover{
+    color: rgb(255, 212, 102);
+    margin-left: 10%;
+}
+
+.contactme{
+    background-color: #0662db;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+	border-right: 10%;
+    margin: right 7%;
+    position: sticky;
+    margin-left: 400%;
+    display: inline;
+    top: 5%;
+    transition: all .5s;
+}
+
+.contactme:hover{
+    text-decoration: none;
+    background-color: #8c00ffa8;
+    color: white;
+    margin-left: 383%;
+}
+
+.contactme:focus{
+    text-decoration: none;
+    background-color: #8c00ffa8;
+    color: white;
+    margin-left: 383%;
+}
+
+.dropdown-menu{
+    margin-left: 360%;
+    margin-top: 4%;
+    position: absolute;
+}
+    .dropdown-item{
+        color: #fdf0f5;
+    }
+
+    .dropdown-item:hover{
+        background-color: #0662db;
+        color: #fdf0f5
+    }
+
+/*---------------------------- FONDO DE PANTALLA ----------------------------*/
+.fondo__principal{
+    background-color: #101010;
+}
+
+.fondo__principal img{
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+
+/*------------------------------- PABLO FABBIAN ------------------------------*/
+.content{
+    position:absolute;
+    top: 60%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h4{
+    color: rgb(255, 215, 255);
+    letter-spacing: 2px;
+    font-size: 20px;
+	line-height: 45%;
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px 5px;
+    font-size: 75px;
+	line-height: 75%;
+}
+
+.content h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+	line-height: 45%;
+    margin-left: 34.7%;
+}
+
+            .newsletter form{
+                width: 380px;
+                max-width: 100%;
+                position: relative;
+                margin-left: 22%;
+            }
+
+            .newsletter form input:first-child{
+                display: inline-block;
+                width: 100%;
+                padding: 14px 130px 14px 15px;
+                border: 2px solid #998a6c;
+                outline: none;
+                border-radius: 30px;
+            }
+            .newsletter form input:last-child{
+                position: absolute;
+                display: inline-block;
+                outline: none;
+                border: none;
+                padding: 10px 30px;
+                border-radius: 30px;
+                background-color: #998a6c;
+                color: white;
+                top: 6px;
+                right: 6px;
+            }
+
+            .email{
+                margin-top: 15%;
+            }
+
+/*--------------------------------- ABOUT ME ---------------------------------*/
+.about{
+    width: 100%;
+    padding: 6% 0px;
+    background-color: #6d6048;
+}
+.main img{
+    height:auto;
+    width: 430px;
+	margin-left: 20%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.about-text{
+    width: 550px;
+	margin-right: 20%;
+}
+.designer{
+    color: #4271d6
+}
+
+section{
+    background-color: #062b5c;
+    width: 100%;
+}
+
+.main{
+    width: 690%;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #062b5c;
+}
+.about-text{
+	padding-left: 4%;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: rgb(255, 215, 255);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+}
+button{
+	background-color:#0662db;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+button:hover{
+	background-color: transparent;
+	border: 2px solid #0662db;
+	cursor: pointer;
+}
+
+/*-------------------------------- OUR SERVICES -------------------------------*/
+.service{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0px;
+}
+.title h2{
+	color: white;
+	font-size: 75px;
+	margin: 30px auto;
+	text-align: center;
+}
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+.card{
+	height: 365px;
+	width: 335px;
+	padding: 20px 35px;
+	background: #1c1c31;
+	border-radius: 20px;
+	margin: 15px;
+	position: sticky;
+	overflow: hidden;
+	text-align: center;
+}
+.card i{
+	font-size: 50px;
+	display: block;
+	text-align: center;
+	margin: 25px 0px;
+	color: #0662db;
+}
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+.pra p{
+	color: rgb(255, 215, 255);
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+.card .button{
+	background-color: #0662db;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	
+	padding: 9px 22px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.card .button:hover{
+	background-color: transparent;
+	border: 2px solid #0662db;
+	cursor: pointer;
+}
+
+/*--------------------------------- CONTACT ME --------------------------------*/
+.contact-me{
+	width: 100%;
+	height: 290px;
+	background: #343a40;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.contact-me p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.contact-me .button-two{
+	background-color:#0662db;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.contact-me .button-two:hover{
+	background-color: transparent;
+	border: 2px solid #0662db;
+	cursor: pointer;
+}
+
+/*---------------------------------- SOCIALS ----------------------------------*/
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #2b2b2c;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+footer p:nth-child(2){
+	color: white;
+	font-size: 17px;
+	width: 500px;
+	text-align: center;
+	line-height: 26px;
+}
+.social{
+	display: flex;
+}
+.social a{
+	width: 45px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background:  #0662db;
+	border-radius: 50%;
+	margin: 22px 10px;
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	transition: all .3s;
+}
+.social a:hover{
+	transform: scale(1.3);
+}
+
+/*------------------------------ MEDIA INDEX.HTML ------------------------------*/
+
+@media screen and (max-width:800px){
+	.navbar{                /*-------------------- NAV BAR ---------------------*/
+		flex-direction: column;
+		height: 80px;
+		justify-content: space-evenly;
+        top: 0%;
+	}
+	.navegation {
+		font-size: 15px;
+	}
+
+    .icono{
+        width: 40px;
+        height: 40px;
+    }
+
+	.fondo__principal {     /*--------------- FONDO DE PANTALLA ----------------*/
+		margin-top: 70px;
+	}
+	.fondo__principal img {
+		width: 180%;
+        margin-left: 0%;
+	}
+	.content{               /*----------------- PABLO FABBIAN ------------------*/
+		top:5%;
+		size-adjust: 15%;
+	}
+	.content h4{
+		margin-top: 150%;
+	}
+	.content h1{
+		font-size: 200%;
+		margin-top: 0%;
+        margin-left: 7%;
+		margin-bottom: 4%;
+	}
+	.content h3{
+		margin-top: 0%;
+		font-size: 75%;
+		margin-bottom: 5%;
+        margin-left: 25%;
+	}
+	.newsletter form{
+		margin-left: 40%;
+		width: 300px;
+		max-width: 100%;
+	}
+	.main{                  /*-------------------- ABOUT ME --------------------*/
+		margin-top: 0%;
+		margin-bottom: 0%;
+	}
+
+    section{
+        background-color: #062b5c;
+        background-size: cover;
+    }
+
+	.main img{
+		margin-top: 3%;
+		margin-left: 10%;
+        margin-right: 10%;
+	}
+	.about{
+		width: 180%;
+		overflow: hidden;
+		padding: 5% 0px;
+		background-color: #6d6048;
+		margin-top: 0%;
+		margin-bottom: 0%;
+	}
+	.about-text{
+		width: 250px;
+		margin-right: 10%;
+	}
+	.about-text h2{
+		text-align: center;
+		text-align: right;
+		font-size: 200%;
+		text-align: left;
+		margin-top: 3%;
+		margin-bottom: 3%;
+	}
+	.about-text h5{
+		font-size: 100%;
+		margin-bottom: 5%;
+	}
+	.about-text p{
+		margin-top: 4%;
+		font-size: 75%;
+		line-height: 110%;
+		margin-right: 15%;
+		margin-bottom: 12.5%;
+	}
+	button{
+		text-decoration: none;
+		font-weight: bold;
+		padding: 5px 13.5px;
+		border-radius: 20px;
+		margin-top: 0%;
+	}
+	.main img{
+		width: 40%;
+		height: auto;
+		align-items: center;
+	}
+	.service{               /*------------------ OUR SERVICES ------------------*/
+		width: 180%;
+		padding: 100px 0px;
+	}
+	.card{
+	padding: 20px 10px;
+	border-radius: 20px;
+	margin: 15px;
+	position: sticky;
+	overflow: hidden;
+	text-align: center;
+	}
+	.pra p{
+		font-size: 8px;
+		line-height: 14px;
+		margin-bottom: 25px;
+		text-align: center;
+	}
+	.contact-me{            /*------------------- CONTACT ME -------------------*/
+		width: 180%;
+		height: 180px;
+	}
+	footer{                 /*-------------------- SOCIALS --------------------*/
+		width: 180%;
+		height: 200px;
+	}
+}
