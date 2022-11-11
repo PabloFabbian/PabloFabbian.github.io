@@ -1,9 +1,9 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;}
 
 html {
-  scroll-behavior: smooth; }
+  scroll-behavior: smooth;}
 
 /*----------------------------------- NAV BAR -----------------------------------*/
 .navbar {
@@ -79,7 +79,9 @@ html {
 .titles {
   margin-left: 0%;
   color: #FEFAE0;
-  font-size: 80px; }
+  font-size: 80px;
+  background-color:#272727;
+}
 
 .photography {
   padding: 5% 15% 2% 3%;
@@ -107,7 +109,7 @@ html {
 .guitar {
   position: absolute;
   top: 115.5%;
-  left: 25.5%; }
+  left: 24.5%; }
 
 .gastronomy {
   padding: 2% 15% 7.5% 3%;
