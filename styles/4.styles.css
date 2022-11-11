@@ -105,6 +105,18 @@
     left: 4%;
 }
 
+.see-more{
+    position: absolute;
+    top: 23%;
+    left: 38%;
+}
+
+.see-more:hover{
+    transform: rotateX(360deg);
+    cursor: pointer;
+    transition: .4s;
+}
+
 .latest-work h3{
         font-size: 325%;
 }
@@ -203,11 +215,12 @@
     position: absolute;
     top:70%;
     right: 9%;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.35);
 }
 
 .phrase h3 p{
     text-align: center;
-    color: #ffffff;
+    color: #ffe0e0;
     font-family: 'Secular One', sans-serif;
     font-weight: 10%;
 }
@@ -220,7 +233,7 @@
     grid-row-gap: 4%;
     justify-content: end;
     position: absolute;
-    top: 100%;
+    top: 105%;
     right: 7%;
 }
 
