@@ -378,12 +378,9 @@ footer p:nth-child(2){
 @media screen and (max-width:800px){
 	.navbar{                /*-------------------- NAV BAR ---------------------*/
 		flex-direction: column;
-		height: 80px;
 		justify-content: space-evenly;
-        top: 0%;
-	}
-	.navbar {
 		font-size: 1px;
+        top: 0%;
 	}
 
     .icono{
@@ -450,7 +447,7 @@ footer p:nth-child(2){
 	}
 	.about-text{
 		display: inline;
-		padding: 40px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
 		margin-right: 5%;
 	}
 	.about-text h2{
@@ -458,7 +455,7 @@ footer p:nth-child(2){
 		text-align: right;
 		font-size: 180%;
 		text-align: left;
-		margin-top: 3%;
+		margin-top: 0%;
 		margin-bottom: 3%;
 	}
 	.about-text h5{
@@ -480,7 +477,7 @@ footer p:nth-child(2){
 		margin-top: 0%;
 	}
 	.main img{
-		width: 40%;
+		width: 30%;
 		height: auto;
 		align-items: center;
 	}
@@ -492,8 +489,10 @@ footer p:nth-child(2){
 		margin-top: 2%;
 	}
 	.box{
-		align-items: 0;
 		min-height: 5px;
+		width: 90%;
+		column-gap: 4%;
+		margin-left: 5%;
 	}
 	.card{
 	height:fit-content;
@@ -507,6 +506,9 @@ footer p:nth-child(2){
 	}
 	.fas{
 		padding:0%;
+	}
+	.card h5{
+		font-size: 18px;
 	}
 	.pra p{
 		font-size: 8px;
