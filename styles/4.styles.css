@@ -1,0 +1,357 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style: none;
+	scroll-behavior: smooth;
+}
+:root{
+	--bg-color: #2a2a2a;
+	--second-bg-color: #202020;
+	--text-color: #fff;
+	--second-color: #ccc;
+	--main-color: #7c083a;
+	--big-font: 5rem;
+	--h2-font: 3rem;
+	--p-font: 1.1rem;
+}
+
+/*----------------------------------- NAV BAR -----------------------------------*/
+.navbar{
+	z-index: 10;
+	display: absolute;
+	position: fixed;
+    padding-top: 10px;
+    padding-left: 8%;
+    padding-right: 8%;
+	width: 100%;
+}
+
+.navbar-nav{
+    margin-left: 18.2%;
+    column-gap: 5%;
+    position: absolute;
+    top: 34.5%;
+}
+
+.icono{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.pf__portfolio{
+    position: sticky;
+    margin-left: 7%;
+    display: inline;
+    top: 4.2%;
+    transition: all .15s;
+}
+
+.pf__portfolio:hover{
+    color: rgb(255, 212, 102);
+    margin-left: 10%;
+}
+
+.contactme{
+    background-color: #0662db;
+    color: white;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+	border-right: 10%;
+    margin: right 7%;
+    position: sticky;
+    margin-left: 400%;
+    display: inline;
+    top: 5%;
+    transition: all .5s;
+}
+
+.contactme:hover{
+    text-decoration: none;
+    background-color: #8c00ffa8;
+    color: white;
+    margin-left: 383%;
+}
+
+.contactme:focus{
+    text-decoration: none;
+    background-color: #8c00ffa8;
+    color: white;
+    margin-left: 383%;
+}
+
+.dropdown-menu{
+    margin-left: 360%;
+    margin-top: 4%;
+    position: absolute;
+}
+    .dropdown-item{
+        color: #fdf0f5;
+    }
+
+    .dropdown-item:hover{
+        background-color: #0662db;
+        color: #fdf0f5
+    }
+
+    /*-------------------------------- ARTICLE ----------------------------------*/
+.latest-work{
+    font-family: 'Secular One', sans-serif;
+    position: absolute;
+    top: 22%;
+    left: 4%;
+}
+
+.see-more{
+    position: absolute;
+    top: 23%;
+    left: 38%;
+}
+
+.see-more:hover{
+    transform: rotateX(360deg);
+    cursor: pointer;
+    transition: .4s;
+}
+
+.latest-work h3{
+        font-size: 325%;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(2, 20%);
+    grid-template-rows: repeat(4, 25%);
+    grid-column-gap: 5%;
+    grid-row-gap: 6%;
+    position: absolute;
+    top: 35%;
+    left: 4.85%;
+}
+
+.row{
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.row img{
+	width: 100%;
+	border-radius: 8px;
+	display: block;
+	transition: transform 0.5s;
+}
+.layer{
+	width: 100%;
+	height: 0;
+	background: linear-gradient(rgba(0,0,0,0.2), #5f052c);
+	position: absolute;
+	border-radius: 8px;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0 40px;
+	transition: height 0.5s;
+    color: var(--text-color);
+}
+.layer h5{
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 15px;
+}
+.layer p{
+	color: var(--second-color);
+	font-size: 1rem;
+	line-height: 1.8;
+}
+.layer i{
+	color: var(--main-color);
+	margin-top: 20px;
+	font-size: 20px;
+	background: var(--text-color);
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.layer a:hover{
+    transform: scale(1.2);
+}
+.layer a{
+    text-decoration: none;
+    transition: 0.55s;}
+
+.row:hover img{
+	transform: scale(1.1);
+}
+.row:hover .layer{
+	height: 100%;
+}
+
+    /*--------------------------------- ASIDE -----------------------------------*/
+.video{
+    position: absolute;
+    border-radius: 8px;
+    right: 10%;
+    top: 23%
+}
+
+.phrase h3{
+    background-color: var(--main-color);
+    margin-top: 0.5%;
+    padding: 2% 2% 1% 2%;
+    border-radius: 200px;
+    position: absolute;
+    top:70%;
+    right: 9%;
+    box-shadow: 0 15px 50px rgba(0,0,0,0.35);
+}
+
+.phrase h3 p{
+    text-align: center;
+    color: #ffe0e0;
+    font-family: 'Secular One', sans-serif;
+    font-weight: 10%;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2, 20%);
+    grid-template-rows: repeat(2, 50%);
+    grid-column-gap: 1%;
+    grid-row-gap: 4%;
+    justify-content: end;
+    position: absolute;
+    top: 105%;
+    right: 7%;
+}
+
+.box{
+	background: var(--bg-color);
+	padding: 35px 45px;
+	border-radius: 8px;
+	transition: all .45s ease;
+}
+.s-icons i{
+	font-size: 32px;
+	margin-bottom: 20px;
+    color: var(--text-color);
+}
+.box h3{
+	font-size: 24px;
+	font-weight: 600;
+	color: var(--text-color);
+	margin-bottom: 15px;
+}
+.box p{
+	color: var(--second-color);
+	font-size: 1rem;
+	line-height: 1.8;
+	margin-bottom: 25px;
+}
+.read{
+	display: inline-block;
+	padding: 8px 18px;
+	background: #333333;
+	color: var(--second-color);
+	font-size: 14px;
+	font-weight: 500;
+	border-radius: 8px;
+	transition: all .45s ease;
+}
+.read:hover{
+	letter-spacing: 1px;
+	background: #ffffff99;
+	color: var(--text-color);
+    text-decoration: none;
+}
+.box:hover{
+	transform: translateY(-8px);
+	cursor: pointer;
+}
+
+    /*-------------------------------- SOCIAL ----------------------------------*/
+
+section{
+    background-color: #fff;
+}
+    
+.social{
+    display: flex;
+    margin-left: 31.7%;
+    background-color: #21262a;
+    }
+
+    .social a{
+        width: 65px;
+        height: 65px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background:  #b93a99;
+        border-radius: 50%;
+        margin: 2300px 25px 70px;
+        color: white;
+        text-decoration: none;
+        font-size: 40px;
+        transition: all .3s;
+    }
+        
+        .social a:hover{
+        transform: scale(1.3);
+        }
+    
+    /*---------------------------------- FOOTER -----------------------------------*/
+footer{
+    background-color: #343a40;
+}
+
+.card{
+    background-color: #343a40;
+    font-style: bold;
+    color: rgb(211, 211, 211);
+}
+
+.card-body .btn{
+    border: 2px solid transparent;
+    background-color:#0662db;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 10px 27px;
+	font-weight: bold;
+    transition: .35s; 
+	color: white;
+}
+.card-body .btn:hover{
+	background-color: transparent;
+	border: 2px solid #0662db;
+	cursor: pointer;
+}
+
+.copyright{
+    color: #8fa3b0;
+    text-align: end;
+    margin-right: 0.3%;
+}
+
+.links{
+    text-align: end;
+    margin-right: 0.1%;
+}
+
+.links a{
+    text-decoration: underline;
+    color: #8fa3b0;
+    margin: 0px 5px;
+}
