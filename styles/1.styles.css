@@ -348,3 +348,145 @@ footer{
     color: #8fa3b0;
     margin: 0px 5px;
 }
+
+/*------------------------------ MEDIA INDEX.HTML ------------------------------*/
+
+@media screen and (max-width:800px){
+                            /*-------------------- NAV BAR ---------------------*/
+	.navbar{                
+		flex-direction: column;
+		justify-content: space-evenly;
+		font-size: 1px;
+        top: 0%;
+	}
+	.navbar-nav{
+		padding-left: 4%;
+		padding-bottom: 1%;
+		position: absolute;
+		top: 90%;
+		right: 0%;
+		width: 100%;
+		height: auto;
+		background-color: #2b2b2c;
+	}
+	.navbar-brand{
+		margin-left: 5%;
+	}
+	.navbar-toggler{
+		margin-left: 5%;
+		margin-bottom: 2%;
+	}
+	.nav-link{
+		padding-top: 1%;
+		padding-bottom: 1%;
+		font-size: 1750%;
+		text-align: left;
+	}
+	.nav-link{
+		text-align: center;
+	}
+    .icono{
+        width: 40px;
+        height: 40px;
+    }
+	.pf__portfolio{
+		margin-top: 0.1%;
+	}
+
+                            /*------------------- ANIMATION --------------------*/
+    .animation{
+        width: 230%;
+    } 
+    .animation p{
+        display: block;
+        font-size: 40px;
+        margin-right: 1px;
+        left: 52.5%;
+    }
+
+                            /*--------------- ARTICLE #GRID ------------------*/
+    #grid{
+        width: 230%;
+        grid-template-columns: repeat(1, 100%);
+        grid-column-gap: 5px;
+        grid-row-gap: 5px;
+        padding: 60px 15px 0px 0px;
+    }
+
+    .parrafo{
+        margin-left: 5%;
+        text-align: center;
+    }
+
+    .parrafo h1{
+        display: inline;
+    }
+
+    .parrafo p{
+        margin-right: 5%;
+        text-align: center;
+    }
+
+    .arbol{
+        margin-top: 0%;    
+        width: 0px;
+        height: 0px;
+    }
+
+                            /*------------------- SECTION --------------------*/
+    section{
+        width: 230%;
+    }
+
+    .title{
+        margin-bottom: 0.5%;
+        padding-top: 0%;
+        padding-left: 0%;
+    }
+
+        .title h1{
+            margin-left: 0%;
+            font-size: 275%;
+            background-color: #343a40;
+            padding-left: 3%;
+            padding-right: 0%;
+            margin-bottom: 0%;
+        }
+
+    .col-4{
+        margin-bottom: 5%;
+    }
+
+        .list-group{
+            width: 110%;
+            height: auto;
+        }
+
+    .col-8 .tab-pane{
+        margin-right: 6%;
+        text-align: end;
+        font-size: 17px;
+    }
+    
+    .social{
+        margin-left: 3%;
+        margin-bottom: 4%;
+    }
+
+                            /*-------------------- FOOTER --------------------*/
+	footer{
+        width: 230%;
+		height: 200px;
+		padding-top: 0%;
+		padding-bottom: 0%;
+		height: 5%;
+	}
+
+    .copyright{
+        text-align: center;
+    }
+
+    .links{
+        text-align: center;
+    }
+}

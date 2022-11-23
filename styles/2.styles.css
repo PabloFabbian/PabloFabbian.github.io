@@ -75,7 +75,7 @@ html {
   background-color: #0662db;
   color: #fdf0f5; }
 
-/*--------------------------- FONDO DE PANTALLA ----------------------------*/
+/*-------------------------------- TITLES ----------------------------------*/
 .titles {
   margin-left: 0%;
   color: #FEFAE0;
@@ -222,3 +222,167 @@ footer {
   text-decoration: underline;
   color: #8fa3b0;
   margin: 0px 5px; }
+
+/*------------------------------ MEDIA INDEX.HTML ------------------------------*/
+
+@media screen and (max-width:800px){
+body{
+  width: 810px;
+}
+  /*-------------------- NAV BAR ---------------------*/
+.navbar{                
+flex-direction: column;
+justify-content: space-evenly;
+font-size: 1px;
+top: 0%;
+}
+.navbar-nav{
+padding-left: 4%;
+padding-bottom: 1%;
+position: absolute;
+top: 90%;
+right: 0%;
+width: 100%;
+height: auto;
+background-color: #2b2b2c;
+}
+.navbar-brand{
+margin-left: 5%;
+}
+.navbar-toggler{
+margin-left: 5%;
+margin-bottom: 2%;
+}
+.nav-link{
+padding-top: 1%;
+padding-bottom: 1%;
+font-size: 1750%;
+text-align: left;
+}
+.nav-link{
+text-align: center;
+}
+.icono{
+width: 40px;
+height: 40px;
+}
+.pf__portfolio{
+margin-top: 0.1%;
+}
+
+                      /*------------------- TITLES -------------------*/
+.titles{
+  position:relative;
+  top: 15%;
+  width: 810px;
+  margin-right: 0%;
+}
+
+  .photography {
+    padding: 5.5% 0% 11.5% 4%;
+    background-color: #264653;
+    margin-bottom: 15%; }
+
+      .ph {
+        margin: 15% 0% 20% 0%;
+        font-size: 65%; }
+
+          .park {
+            position: absolute;
+            top: 13.5%;
+            left: 27%; }
+
+  .music {
+    padding: 3% 0% 4.5% 4%;
+    background-color: #2A9D8F;
+    margin-bottom: 10%; }
+
+      .ms {
+        margin: 7% 0% 7% 72.5%;
+        font-size: 65%; }
+
+          .guitar {
+            position: absolute;
+            top: 31.5%;
+            left: 4.5%;
+            width: 65%;
+            height: 16.5%; }
+
+  .gastronomy {
+    padding: 20% 0% 20% 3%;
+    background-color: #f6bd60;
+    margin-bottom: 10%; }
+
+      .gs {
+        margin: 12% 5% 10% 50%;
+        font-size: 65%;
+        left: 3%;
+        top: 56%;
+        position: absolute;
+        z-index: 9; }
+
+          .cake {
+            position: absolute;
+            top: 52%;
+            left: 8%;
+            height: auto;
+            z-index: 8; }
+
+  .design {
+    padding: 4.5% 0% 30.5% 7%;
+    background-color: #f39a52;}
+
+      .ds {
+        margin: 10% 0% 20 1%;
+        font-size: 65%;
+        position: absolute;
+        z-index: 9;
+        left: 16.65%;
+        top: 74.5%; }
+
+          .dibu {
+            position: absolute;
+            top: 71%;
+            left: 28.5%;
+            height: auto; }
+
+  .programming {
+    padding: 4.5% 0% 20.5% 7%;
+    background-color: #E76F51;
+    margin-bottom: 0%; }
+
+      .pr {
+        margin: 0% 0% 0% 1%;
+        font-size: 65%;
+        position: absolute;
+        top: 92%;
+        left: 45.55%;
+        z-index: 9; }
+
+          .code {
+            position: absolute;
+            top: 80.5%;
+            left: 3%;
+            height: auto; }
+
+                        /*-------------------- SECTION --------------------*/
+          section{
+            width:810px; }
+
+            .social{
+              margin-left: 0%;
+              justify-content: center; }
+
+                        /*-------------------- FOOTER --------------------*/
+footer{
+width: 100%;
+padding-top: 0%;
+padding-bottom: 0%;
+height: 5%; }
+
+.copyright{
+text-align: center; }
+
+.links{
+text-align: center; }
+}
