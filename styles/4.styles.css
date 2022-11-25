@@ -227,14 +227,14 @@
 
 .grid{
     display: grid;
-    grid-template-columns: repeat(2, 20%);
+    grid-template-columns: repeat(2, 40%);
     grid-template-rows: repeat(2, 50%);
-    grid-column-gap: 1%;
-    grid-row-gap: 4%;
-    justify-content: end;
+    grid-column-gap: 2.5%;
+    grid-row-gap: 2.5%;
+    left: 55%;
     position: absolute;
     top: 105%;
-    right: 7%;
+    overflow: hidden;
 }
 
 .box{
@@ -389,8 +389,8 @@ margin-left: 5%;
 margin-left: 8.5%;
 }
 .navbar-toggler-icon{
-width: 0.35em;
-height: 0.35em;
+width: 2em;
+height: 2em;
 }
 .nav-link{
 padding-top: 1%;
@@ -519,22 +519,22 @@ article{
     width: 125%;} 
 
 .grid{
-    grid-template-columns: repeat(1, 8500%);
-    grid-template-rows: repeat(4, 25%);
     grid-row-gap: 1%;
     position: absolute;
+    width: 125%;
+    height: auto;
     top: 125%;
     left: 10%;
-    display: inline-block;}
+    display: inline-block;
+}
 
     .box{
         display: inline-block;
         background: var(--bg-color);
         border-radius: 8px;
-        width: 155%;
-        height: auto;
+        width: 125%;
+        height: 125%;
         margin-bottom: 2.5%;
-
     }
         .s-icons i{
             font-size: 32px;
@@ -552,6 +552,7 @@ article{
             font-size: 1rem;
             line-height: 1.8;
             margin-bottom: 25px;
+            width: 80%;
         }
         .read{
             display: inline-block;
@@ -563,6 +564,7 @@ article{
             border-radius: 8px;
             transition: all .45s ease;
         }
+
                             /*--------------------- SOCIAL ---------------------*/
 section{
     margin-left: 40%;
