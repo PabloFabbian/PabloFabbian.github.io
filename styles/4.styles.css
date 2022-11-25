@@ -355,3 +355,242 @@ footer{
     color: #8fa3b0;
     margin: 0px 5px;
 }
+
+/*------------------------------ MEDIA INDEX.HTML ------------------------------*/
+
+@media screen and (max-width:800px){
+body{
+    width: 234%;
+}
+                            /*-------------------- NAV BAR ---------------------*/
+.navbar{      
+z-index: 10;
+position: fixed;
+display: absolute;
+flex-direction: column;
+justify-content: space-evenly;
+top: 0%;
+width: 100%;
+}
+.navbar-nav{
+padding-left: 7%;
+padding-bottom: 1%;
+position: absolute;
+top: 90%;
+right: 0%;
+width: 100%;
+height: auto;
+background-color: #2b2b2c;
+}
+.navbar-brand{
+margin-left: 5%;
+}
+.navbar-toggler{
+margin-left: 8.5%;
+}
+.navbar-toggler-icon{
+width: 0.35em;
+height: 0.35em;
+}
+.nav-link{
+padding-top: 1%;
+padding-bottom: 0%;
+font-size: 175%;
+text-align: center;
+}
+.icono{
+width: 40px;
+height: 40px;
+}
+.pf__portfolio{
+margin-top: 0.1%;
+}
+
+                            /*-------------------- ARTICLE ---------------------*/
+article{
+    width: 234%; }
+
+.latest-work h3{
+    font-size: 75px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.see-more{
+    position: absolute;
+    top: 30%;
+    left: 110%;
+}
+
+#grid{
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(8, 25%);
+    grid-column-gap: 15%;
+    grid-row-gap: 6%;
+    position: absolute;
+    top: 25%;
+    left: 155%;
+    width: 50%;
+    height: 100%;
+    padding-right: 0%;
+}
+
+.row{
+	position: relative;
+	overflow: hidden;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.row img{
+	width: 100%;
+	border-radius: 8px;
+	display: block;
+	transition: transform 0.5s;
+}
+.layer{
+	width: 110%;
+	height: -15%;
+	background: linear-gradient(rgba(0,0,0,0.2), #5f052c);
+	position: absolute;
+	border-radius: 8px;
+	left: -5%;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 0 40px;
+	transition: height 0.5s;
+    color: var(--text-color);
+}
+.layer h5{
+	font-size: 15px;
+	font-weight: 600;
+	margin-bottom: 5px;
+}
+.layer p{
+	color: var(--second-color);
+	font-size: .5rem;
+	line-height: 1.8;
+	margin-bottom: 5px;
+}
+.layer i{
+	color: var(--main-color);
+	margin-top: 20px;
+	font-size: 20px;
+	background: var(--text-color);
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.layer a:hover{
+    transform: scale(1.2);
+}
+.layer a{
+    text-decoration: none;
+    transition: 0.55s;}
+
+                            /*--------------------- ASIDE ----------------------*/
+.video{
+    position: absolute;
+    top: 50%;
+    left: 7.5%;}
+
+.video iframe{
+    width: 400px;
+    height: 300px;}
+
+.phrase{
+    position: inherit;}
+
+.phrase h3{
+    top: 94.5%;
+    font-size: large;
+    padding: 25px 50px 5px 50px;
+    left: 10%;
+    display: inline-block;
+    position: absolute;
+    width: 125%;} 
+
+.grid{
+    grid-template-columns: repeat(1, 8500%);
+    grid-template-rows: repeat(4, 25%);
+    grid-row-gap: 1%;
+    position: absolute;
+    top: 125%;
+    left: 10%;
+    display: inline-block;}
+
+    .box{
+        display: inline-block;
+        background: var(--bg-color);
+        border-radius: 8px;
+        width: 155%;
+        height: auto;
+        margin-bottom: 2.5%;
+
+    }
+        .s-icons i{
+            font-size: 32px;
+            margin-bottom: 20px;
+            color: var(--text-color);
+        }
+        .box h3{
+            font-size: 24px;
+            font-weight: 600;
+            color: var(--text-color);
+            margin-bottom: 15px;
+        }
+        .box p{
+            color: var(--second-color);
+            font-size: 1rem;
+            line-height: 1.8;
+            margin-bottom: 25px;
+        }
+        .read{
+            display: inline-block;
+            padding: 8px 18px;
+            background: #333333;
+            color: var(--second-color);
+            font-size: 14px;
+            font-weight: 500;
+            border-radius: 8px;
+            transition: all .45s ease;
+        }
+                            /*--------------------- SOCIAL ---------------------*/
+section{
+    margin-left: 40%;
+}
+.social{
+    margin-left: 0%;
+    justify-content: center;
+    padding-right: 3%;
+}
+.social a{
+    margin-top: 550%;
+    margin-left: -4%;
+}
+
+                            /*--------------------- FOOTER ---------------------*/
+footer{
+        width: 100%;
+		height: 200px;
+		padding-top: 0%;
+		padding-bottom: 0%;
+		height: 5%;
+	}
+
+    .copyright{
+        text-align: center;
+    }
+
+    .links{
+        text-align: center;
+    }
+}
